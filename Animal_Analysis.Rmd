@@ -1,0 +1,282 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+This is an [R Markdown](http://rmarkdown.rstudio.com) Notebook. When you execute code within the notebook, the results appear beneath the code. 
+
+Try executing this chunk by clicking the *Run* button within the chunk or by placing your cursor inside it and pressing *Ctrl+Shift+Enter*. 
+
+2020년 자료
+
+```{r}
+library(dplyr)
+library(tidyverse)
+animal <- read.csv(file.choose(), header = TRUE, fileEncoding = "CP949", encoding = "UTF-8")
+
+View(animal)
+```
+
+
+
+
+전처리 작업. 
+
+processState 라는 변수에 "종료(방사)" 라고 되어있는 란은 야생동물을 포획 후 중성화를 시킨 뒤 자연에 되돌려 보내는 것을 의미한다. 
+따라서 야생동물을 제거해주는 작업이 필요하다. 또한 "종료(반환)" 이라는 변수또한 주인이 찾아가려는 노력을 했다고 보여지기 때문에 유기동물이라 보기 어려워 제거를 해 주었다.
+
+
+
+```{r}
+
+#기타축종 제외 
+animal_2 <- animal %>%
+    filter(!(grepl('기타축종', kindCd)))
+
+View(animal_2)
+
+# 반환 제거
+animal_3 <- animal_2 %>% 
+    filter(!(grepl('반환', processState)))
+View(animal_3)
+
+# 방사 제거
+animal_4 <- animal_3 %>% 
+    filter(!(grepl('방사', processState)))
+View(animal_3)
+```
+
+
+```{r}
+# kindCD에 개와 고양이로 명시되어 있는 데이터 추출
+
+
+
+#개
+animal_Dog <- animal_4 %>% 
+    filter(grepl('개', kindCd))
+View(animal_Dog)
+
+#고양이
+
+animal_Cat <- animal_4 %>% 
+    filter(grepl('고양이', kindCd))
+View(animal_Cat)
+#개와 고양이 전체 데이터 
+
+animal_all <- rbind(animal_Dog, animal_Cat)
+
+
+
+```
+
+```{r}
+animal_1 <- subset(animal_all,happenDt>=20200101&happenDt<=20200131)
+animal_2 <- subset(animal_all,happenDt>=20200201&happenDt<=20200228)
+animal_3 <- subset(animal_all,happenDt>=20200301&happenDt<=20200331)
+animal_4 <- subset(animal_all,happenDt>=20200401&happenDt<=20200430)
+animal_5 <- subset(animal_all,happenDt>=20200501&happenDt<=20200531)
+animal_6 <- subset(animal_all,happenDt>=20200601&happenDt<=20200630)
+animal_7 <- subset(animal_all,happenDt>=20200701&happenDt<=20200731)
+animal_8 <- subset(animal_all,happenDt>=20200801&happenDt<=20200831)
+animal_9 <- subset(animal_all,happenDt>=20200901&happenDt<=20200930)
+animal_10 <- subset(animal_all,happenDt>=20201001&happenDt<=20201031)
+animal_11 <- subset(animal_all,happenDt>=20201101&happenDt<=20201130)
+animal_12 <- subset(animal_all,happenDt>=20201201&happenDt<=20201231)
+count(animal_1)
+count(animal_2)
+count(animal_3)
+count(animal_4)
+count(animal_5)
+count(animal_6)
+count(animal_7)
+count(animal_8)
+count(animal_9)
+count(animal_10)
+count(animal_11)
+count(animal_12)
+```
+
+```{r}
+animal_1 <- subset(animal_all,happenDt>=20190101&happenDt<=20190131)
+animal_2 <- subset(animal_all,happenDt>=20190201&happenDt<=20190228)
+animal_3 <- subset(animal_all,happenDt>=20190301&happenDt<=20190331)
+animal_4 <- subset(animal_all,happenDt>=20190401&happenDt<=20190430)
+animal_5 <- subset(animal_all,happenDt>=20190501&happenDt<=20190531)
+animal_6 <- subset(animal_all,happenDt>=20190601&happenDt<=20190630)
+animal_7 <- subset(animal_all,happenDt>=20190701&happenDt<=20190731)
+animal_8 <- subset(animal_all,happenDt>=20190801&happenDt<=20190831)
+animal_9 <- subset(animal_all,happenDt>=20190901&happenDt<=20190930)
+animal_10 <- subset(animal_all,happenDt>=20191001&happenDt<=20191031)
+animal_11 <- subset(animal_all,happenDt>=20191101&happenDt<=20191130)
+animal_12 <- subset(animal_all,happenDt>=20191201&happenDt<=20191231)
+```
+```{r}
+animal_1 <- subset(animal_all,happenDt>=20210101&happenDt<=20210131)
+animal_2 <- subset(animal_all,happenDt>=20210201&happenDt<=20210228)
+animal_3 <- subset(animal_all,happenDt>=20210301&happenDt<=20210331)
+animal_4 <- subset(animal_all,happenDt>=20210401&happenDt<=20210430)
+animal_5 <- subset(animal_all,happenDt>=20210501&happenDt<=20210531)
+animal_6 <- subset(animal_all,happenDt>=20210601&happenDt<=20210630)
+animal_7 <- subset(animal_all,happenDt>=20210701&happenDt<=20210731)
+animal_8 <- subset(animal_all,happenDt>=20210801&happenDt<=20210831)
+animal_9 <- subset(animal_all,happenDt>=20210901&happenDt<=20210930)
+animal_10 <- subset(animal_all,happenDt>=20211001&happenDt<=20211031)
+animal_11 <- subset(animal_all,happenDt>=20211101&happenDt<=20211130)
+animal_12 <- subset(animal_all,happenDt>=20211201&happenDt<=20211231)
+```
+
+```{r}
+animal_1 <- subset(animal_all,happenDt>=20220101&happenDt<=20220131)
+animal_2 <- subset(animal_all,happenDt>=20220201&happenDt<=20220228)
+animal_3 <- subset(animal_all,happenDt>=20220301&happenDt<=20220331)
+animal_4 <- subset(animal_all,happenDt>=20220401&happenDt<=20220430)
+animal_5 <- subset(animal_all,happenDt>=20220501&happenDt<=20220531)
+animal_6 <- subset(animal_all,happenDt>=20220601&happenDt<=20220630)
+animal_7 <- subset(animal_all,happenDt>=20220701&happenDt<=20220731)
+animal_8 <- subset(animal_all,happenDt>=20220801&happenDt<=20220831)
+animal_9 <- subset(animal_all,happenDt>=20220901&happenDt<=20220930)
+animal_10 <- subset(animal_all,happenDt>=20221001&happenDt<=20221031)
+animal_11 <- subset(animal_all,happenDt>=20221101&happenDt<=20221130)
+animal_12 <- subset(animal_all,happenDt>=20221201&happenDt<=20221231)
+```
+시계열 예측
+2주기보다 짧으면 안된다.
+```{r}
+a <- read.csv(file.choose())
+tsData = ts(a, start = c(2019,10), frequency = 12)
+#계절요인 분해 시계열
+components.ts = decompose(tsData) #데이터에서 4가지 요인을 분해시키는 함수
+components.ts$seasonal #계절요인으로 분해된 부분
+plot(components.ts) # 4가지 요인을 도식화 
+#계절요인 제외시키기
+components.ts.adj <- tsData - components.ts$seasonal
+plot(components.ts.adj)
+
+# 1회 차분
+animal.diff_1 <- diff(components.ts.adj, differences = 1)
+plot(animal.diff_1)
+# 2회 차분
+animal.diff_2 <- diff(components.ts.adj, differences = 2)
+plot(animal.diff_2)
+#acf 자기상관 그래프 
+acf(animal.diff_2, lag.max = 20)
+library("fUnitRoots")
+#1번째 lag를 제외하고는 모두 신뢰구간 안에 포함되어 있다. 
+# lag 1에서 절단
+
+
+# pacf 부분자기상관함수 그래프
+pacf(animal.diff_2, lag.max=20)
+
+#lag 1~6 신뢰구간을 넘어 음의 값을 가지고 lag 7에서 절단된 것 확인
+
+install.packages("forecast")
+library(forecast)
+
+auto.arima(components.ts.adj)
+#arima 결과 0,1,0 대입
+animal.arima <- arima(components.ts.adj, order  = c(0,1,3))
+animal.arima
+
+#arima 결과를 활용한 forecast 예측
+animal.forecast <- forecast(animal.arima, h = 12)
+animal.forecast
+plot(animal.forecast)
+```
+
+```{r}
+a <- read.csv(file.choose())
+tsData = ts(a, start = c(2019,10,1), frequency = 12)
+plot.ts(tsData, main = "전국 유기동물 발생 건 수")
+animal_comp <- decompose(tsData)
+plot(animal_comp)
+animal_adjusted <- tsData - animal_comp$seasonal
+plot.ts(animal_adjusted, main = "animal - seasonal factor")
+#차분을 통한 정상성 확인
+animal_diff1 <- diff(animal_adjusted, differences = 1)
+plot.ts(animal_diff1, main = "1차 차분")  
+#acf
+acf(animal_diff1, lag.max = 20)
+#pacf
+pacf(animal_diff1, lag.max = 20)
+#예측
+animal_arima <- arima(tsData, order = c(1,1,1))
+animal_arima
+
+animal_fcast <- forecast(animal.arima, h=6)
+animal_fcast
+
+plot(animal_fcast)
+# auto arima 를 통한 모형 
+auto.arima(tsData)
+animal_arima <- arima(tsData, order = c(0,1,0), seasonal = list(order = c(0,1,0), period = 12))
+animal_fcast <- forecast(animal_arima)
+
+plot(animal_fcast, main = "Forecasts animal_arima")
+tsData_log <- log(tsData)
+plot.ts(tsData_log)
+tsData_diff <- diff(tsData_log, differences = 1)
+plot.ts(tsData_diff)
+acf(tsData_diff, lag.max = 100)
+pacf(tsData_diff, lag.max = 100)
+auto.arima(tsData)
+tsData_arima <- arima(tsData, order = c(0,1,0) , seasonal = list(order =c(0,1,0), period = 12))
+tsData_forecast <- forecast(tsData_arima)
+plot(tsData_forecast)
+```
+tbats 모형 활용 
+```{r}
+fit <- tbats(tsData)
+predict <- predict(tsData)
+predict
+plot(forecast(fit))
+```
+
+
+
+2019~ 2021 데이터
+```{r}
+b <- read.csv(file.choose())
+tsData = ts(b, start = c(2019,39), frequency = 52)
+tsData
+auto.arima(tsData)
+animal_arima <- arima(tsData, order = c(0,1,1), seasonal = list(order = c(0,1,0), period = 52))
+animal_fcast <- forecast(animal_arima, h = 29)
+plot(animal_fcast)
+```
+
+전체 데이터
+```{r}
+a <- read.csv(file.choose())
+tsData = ts(a, start = c(2019,39), frequency = 52)
+tsData
+plot.ts(tsData, main = "전국 유기동물 발생 건 수")
+animal_comp <- decompose(tsData)
+plot(animal_comp)
+#계절성 제거
+animal_adjusted <- tsData - animal_comp$seasonal
+
+plot.ts(animal_adjusted, main = "animal - seasonal factor")
+#차분을 통한 정상성 확인
+animal_diff1 <- diff(animal_adjusted, differences = 1)
+plot.ts(animal_diff1, main = "1차 차분")  
+#acf
+acf(animal_diff1, lag.max = 50)
+#pacf
+pacf(animal_diff1, lag.max = 50)
+#예측
+animal_arima <- arima(tsData, order = c(1,1,1))
+animal_arima
+
+animal_fcast <- forecast(animal.arima, h=6)
+animal_fcast
+
+plot(animal_fcast)
+
+# auto arima 를 통한 모형 
+auto.arima(tsData)
+animal_arima <- arima(tsData, order = c(0,1,2), seasonal = list(order = c(1,1,0), period = 52))
+animal_fcast <- forecast(animal_arima, h = 52)
+plot(animal_fcast)
+```
