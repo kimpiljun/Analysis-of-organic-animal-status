@@ -2,9 +2,13 @@
 
 > "유기동물은 갑자기 생기지 않습니다. 우리는 데이터를 통해 그 원인을 추적합니다."
 
+---
+
 ## 🎯 프로젝트 개요
 
 최근 몇 년간 유기동물의 수가 꾸준히 증가하고 있으며, 이로 인한 민원도 급증하고 있습니다. 유기동물의 수 증가에 따라 안락사도 늘어나고 있지만, 명확한 예방 및 사후처리 방법은 부재한 실정입니다. 이에 따라 본 프로젝트는 유기동물의 발생 특성을 파악하고, 효과적인 예방 및 대응 방안을 제안하고자 기획되었습니다.
+
+---
 
 ## 📂 데이터 및 도구
 
@@ -19,6 +23,8 @@
   * **R**: 통계 분석, 연관 규칙, 시계열 예측 등
 * **주요 변수**: `HAPPENDT`, `HAPPENPLACE`, `KIND`, `SEXCD`, `AGE`, `PROCESSSTATE`, `CAREADDR` 등
 
+---
+
 ## 🧪 분석 방법론
 
 ### 1. 📌 텍스트 마이닝
@@ -28,16 +34,21 @@
   <div style="display: inline-block; text-align: left; max-width: 500px; vertical-align: middle;">
     <h4>🧮텍스트 마이닝을 통한 동물 발견 장소적 특징 그래프</h4>
     <p>보호센터 주소 및 발견 장소를 정제하여 지리정보 기반 분석 가능하도록 가공<br>
-    **사람들의 유동이 많은 지역(아파티, 학교.유치원 등)**에서 많이 발견되는 추세</p>
+    사람들의 유동이 많은 지역(아파티, 학교.유치원 등)에서 많이 발견되는 추세</p>
   </div>
 </div>
 
-* 보호센터 주소 및 발견 장소를 정제하여 지리정보 기반 분석 가능하도록 가공
-
 ### 2. 🔗 연관 규칙 분석
 
-* 지역별 유기동물 발견 장소 및 환경적 특성 간의 연관 규칙 도출
-* 예: 부평 고양이 → "주차장", "아파트" / 전주 고양이 → "놀이터", "학교"
+<div align="Center">
+  <img width="600" height="330" alt="Civil Bot Table" src="https://github.com/user-attachments/assets/47de1a14-87c5-4a00-a34c-1651f0cc0c9d" style="margin-right: 20px; display: inline-block; vertical-align: middle;" />
+  <div style="display: inline-block; text-align: left; max-width: 500px; vertical-align: middle;">
+    <h4>트랜잭션을 통한 연관규칙 분</h4>
+    <p>지역별 유기동물 발견 장소 및 환경적 특성 간의 연관 규칙 도출<br>
+    예: 부평 고양이 → "주차장", "아파트" / 전주 고양이 → "놀이터", "학교"</p>
+  </div>
+</div>
+
 
 ### 3. 🗺️ GIS 분석
 
