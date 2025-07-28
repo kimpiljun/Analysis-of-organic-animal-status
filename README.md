@@ -54,7 +54,7 @@
 <div align="Center">
   <img width="600" height="330" alt="Civil Bot Table" src="https://github.com/user-attachments/assets/c6fb84d6-c1e5-4639-ade3-de26abce099b" style="margin-right: 20px; display: inline-block; vertical-align: middle;" />
   <div style="display: inline-block; text-align: left; max-width: 500px; vertical-align: middle;">
-    <h4지도 시각화를 통해 유기동물 발생 밀집 지역 파악</h4>
+    <h4>지도 시각화를 통해 유기동물 발생 밀집 지역 파악</h4>
     <p>지역별 유기동물 발견 장소 및 환경적 특성 간의 연관 규칙 도출<br>
     지도 시각화를 통해 유기동물 발생 밀집 지역 파악</p>
   </div>
@@ -64,6 +64,14 @@
 
 ### 4. 📈 시계열 분석
 
+<div align="Center">
+  <img width="600" height="330" alt="Civil Bot Table" src="https://github.com/user-attachments/assets/c6fb84d6-c1e5-4639-ade3-de26abce099b" style="margin-right: 20px; display: inline-block; vertical-align: middle;" />
+  <div style="display: inline-block; text-align: left; max-width: 500px; vertical-align: middle;">
+    <h4>께절성 제거</h4>
+  </div>
+</div>
+
+     
 * 과거 데이터를 기반으로 월별 유기동물 발생 예측
 * `2019.10 ~ 2021.12` 데이터 기반 `2022.09`까지의 예측 수행
 
