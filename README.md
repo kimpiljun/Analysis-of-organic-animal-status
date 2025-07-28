@@ -29,6 +29,9 @@
 
 ### 1. 📌 텍스트 마이닝
 
+> 유기동물 데이터 내 보호센터 주소 및 발견 장소와 같은 비정형 텍스트 데이터를 정제하고 가공하여 분석에 활용하였습니다. 텍스트 마이닝 기법을 통해 장소명, 시설명 등 핵심 키워드를 추출하고, 이를 기반으로 유기동물이 주로 발견되는 장소적 특성을 파악할 수 있었습니다.
+> 특히, 사람이 많이 모이는 아파트 단지, 학교, 유치원 등 특정 지역에서 유기동물 발견 빈도가 높게 나타나는 경향을 확인하였습니다. 이를 통해 유기동물 발생과 지역사회 환경 간의 연관성을 탐색하는 기초 자료를 마련하였습니다.
+
 <div align="Center">
   <img width="600" height="330" alt="Civil Bot Table" src="https://github.com/user-attachments/assets/18f592b3-929d-483e-8515-2927a08b102f" style="margin-right: 20px; display: inline-block; vertical-align: middle;" />
   <div style="display: inline-block; text-align: left; max-width: 500px; vertical-align: middle;">
@@ -40,6 +43,8 @@
 
 ### 2. 🔗 연관 규칙 분석
 
+> 유기동물 발견 장소와 주변 환경 특성 간의 연관성을 규칙 기반으로 도출하기 위해 연관 규칙 분석을 수행하였습니다. 트랜잭션 형태로 정리된 데이터를 바탕으로 지역별로 자주 함께 나타나는 장소 조합을 찾아내었으며, 예를 들어 부평 지역의 고양이는 주차장과 아파트 주변에서, 전주 지역의 고양이는 놀이터와 학교 인근에서 주로 발견되는 패턴을 확인하였습니다.
+> 이 분석은 유기동물 발생과 특정 환경 요인 간의 상호작용을 이해하고, 지역 맞춤형 예방 대책 수립에 중요한 인사이트를 제공합니다.
 <div align="Center">
   <img width="600" height="330" alt="Civil Bot Table" src="https://github.com/user-attachments/assets/47de1a14-87c5-4a00-a34c-1651f0cc0c9d" style="margin-right: 20px; display: inline-block; vertical-align: middle;" />
   <div style="display: inline-block; text-align: left; max-width: 500px; vertical-align: middle;">
@@ -51,6 +56,8 @@
 
 ### 3. 🗺️ GIS 분석
 
+> 유기동물 발생 데이터를 지리정보시스템(GIS) 기법으로 시각화하여 전국 및 지역별 발생 밀집도를 파악하였습니다. 행정구역 단위로 발생 건수를 색상으로 표현함으로써 유기동물이 집중적으로 발생하는 지역을 한눈에 확인할 수 있었으며, 이를 통해 특정 지역의 환경적 특성이나 인구 밀집도와의 상관관계를 탐색할 수 있었습니다.
+> GIS 분석은 공간적 패턴을 명확히 하여 정책 결정자들이 효율적인 자원 배분과 예방 활동을 계획하는 데 중요한 근거 자료로 활용됩니다.
 <div align="Center">
   <img width="600" height="330" alt="Civil Bot Table" src="https://github.com/user-attachments/assets/c6fb84d6-c1e5-4639-ade3-de26abce099b" style="margin-right: 20px; display: inline-block; vertical-align: middle;" />
   <div style="display: inline-block; text-align: left; max-width: 500px; vertical-align: middle;">
