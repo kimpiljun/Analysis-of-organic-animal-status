@@ -113,6 +113,7 @@
   <img width="600" height="330" alt="Civil Bot Table"  src="https://github.com/user-attachments/assets/654357f9-fd5c-4365-80cd-c7e6f1ccdaa7"   style="margin-right: 20px; display: inline-block; vertical-align: middle;" />
   <div style="display: inline-block; text-align: left; max-width: 500px; vertical-align: middle;">
     <h4>최종 모델</h4>
+   <p>위 분석을 토대로 ARIMA 등 적절한 시계열 모델을 구축하고, 예측 및 해석을 수행합니다.</p>
   </div>
 </div>
 
