@@ -28,7 +28,7 @@
   <div style="display: inline-block; text-align: left; max-width: 500px; vertical-align: middle;">
     <h4>🧮텍스트 마이닝을 통한 동물 발견 장소적 특징 그래프</h4>
     <p>보호센터 주소 및 발견 장소를 정제하여 지리정보 기반 분석 가능하도록 가공<br>
-    사람들의 유동이 많은 지역(아파티, 학교.유치원 등)에서 많이 발견되는 추세</p>
+    **사람들의 유동이 많은 지역(아파티, 학교.유치원 등)**에서 많이 발견되는 추세</p>
   </div>
 </div>
 
