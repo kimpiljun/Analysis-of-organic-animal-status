@@ -26,6 +26,10 @@
 <div align="Center">
   <img width="600" height="330" alt="Civil Bot Table" src="https://github.com/user-attachments/assets/18f592b3-929d-483e-8515-2927a08b102f" style="margin-right: 20px; display: inline-block; vertical-align: middle;" />
   <div style="display: inline-block; text-align: left; max-width: 500px; vertical-align: middle;">
+    <h4>🧮텍스트 마이닝을 통한 동물 발견 장소적 특징 그래프</h4>
+    <p사람들의 유동이 많은 지역(아파티, 학교.유치원 등)에서 많이 발견되는 추세</p>
+  </div>
+</div>
 
 * 보호센터 주소 및 발견 장소를 정제하여 지리정보 기반 분석 가능하도록 가공
 
