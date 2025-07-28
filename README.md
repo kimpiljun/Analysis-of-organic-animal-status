@@ -68,7 +68,8 @@
   <img width="600" height="330" alt="Civil Bot Table" src="https://github.com/user-attachments/assets/19aeafbd-7387-4512-b800-ee5417913518"  style="margin-right: 20px; display: inline-block; vertical-align: middle;" />
   <div style="display: inline-block; text-align: left; max-width: 500px; vertical-align: middle;">
     <h4>데이터 분해</h4>
-   <p>Seasonal의 경우 특정 주기가 보인다는 것을 확인할 수 있었으며, Random의 경우 잘 표현이 된 것을 확인할 수 있었습니다.</p>
+   <p>시계열 데이터를 추세(Trend), 계절성(Seasonality), 불규칙성(Random)으로 분해하여 각 구성 요소를 파악합니다.<br>
+   이를 통해 데이터 내에 계절적 패턴이 존재하는지 확인합니다.</p>
   </div>
 </div>
 
@@ -103,7 +104,7 @@
 <div align="Center">
   <img width="600" height="330" alt="Civil Bot Table"  src="https://github.com/user-attachments/assets/654357f9-fd5c-4365-80cd-c7e6f1ccdaa7"   style="margin-right: 20px; display: inline-block; vertical-align: middle;" />
   <div style="display: inline-block; text-align: left; max-width: 500px; vertical-align: middle;">
-    <h4>PACF 확인</h4>
+    <h4>최종 모델</h4>
   </div>
 </div>
 
