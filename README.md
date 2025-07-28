@@ -77,6 +77,8 @@
   <img width="600" height="330" alt="Civil Bot Table"  src="https://github.com/user-attachments/assets/9f7dcbb0-1d36-4228-b677-cf5e2f9637b9"  style="margin-right: 20px; display: inline-block; vertical-align: middle;" />
   <div style="display: inline-block; text-align: left; max-width: 500px; vertical-align: middle;">
     <h4>계절성 제거</h4>
+   <p>분해 결과를 바탕으로 계절성 요인을 제거하여 비계절성 데이터로 변환합니다.<br>
+   계절성에 의한 변동을 제거해 추세와 불규칙 요인에 집중할 수 있습니다.</p>
   </div>
 </div>
 
@@ -84,6 +86,8 @@
   <img width="600" height="330" alt="Civil Bot Table"   src="https://github.com/user-attachments/assets/7cb23f3f-c00d-47ac-8410-8dd987e3c43a"  style="margin-right: 20px; display: inline-block; vertical-align: middle;" />
   <div style="display: inline-block; text-align: left; max-width: 500px; vertical-align: middle;">
     <h4>1차 차분</h4>
+   <p>정상성 확보를 위해 시계열에 차분을 적용합니다.<br>
+   차분 후 데이터가 평균과 분산이 일정한 정상 시계열로 변환되었는지 확인합니다.</p>
   </div>
 </div>
 
@@ -91,6 +95,8 @@
   <img width="600" height="330" alt="Civil Bot Table"  src="https://github.com/user-attachments/assets/6b46a6f7-6f80-465f-b148-faa24cb0031a"   style="margin-right: 20px; display: inline-block; vertical-align: middle;" />
   <div style="display: inline-block; text-align: left; max-width: 500px; vertical-align: middle;">
     <h4>ACF 확인</h4>
+   <p>차분된 시계열의 자기상관함수를 확인하여 시계열 내의 상관 구조를 파악합니다.<br>
+   모델 차수 결정에 참고합니다.</p>
   </div>
 </div>
 
@@ -98,6 +104,8 @@
   <img width="600" height="330" alt="Civil Bot Table"  src="https://github.com/user-attachments/assets/6e436392-cbe1-4597-be90-a031540691dc"   style="margin-right: 20px; display: inline-block; vertical-align: middle;" />
   <div style="display: inline-block; text-align: left; max-width: 500px; vertical-align: middle;">
     <h4>PACF 확인</h4>
+   <p>부분 자기상관함수를 통해 직접적인 자기상관 관계를 분석합니다.<br>
+   AR(자기회귀) 모형 차수 결정에 활용됩니다.</p>
   </div>
 </div>
 
