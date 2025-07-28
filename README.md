@@ -67,10 +67,24 @@
 <div align="Center">
   <img width="600" height="330" alt="Civil Bot Table" src="https://github.com/user-attachments/assets/9f7dcbb0-1d36-4228-b677-cf5e2f9637b9"  style="margin-right: 20px; display: inline-block; vertical-align: middle;" />
   <div style="display: inline-block; text-align: left; max-width: 500px; vertical-align: middle;">
-    <h4>계성 제거</h4>
+    <h4>데이터 분해</h4>
+   <p>Seasonal의 경우 특정 주기가 보인다는 것을 확인할 수 있었으며, Random의 경우 잘 표현이 된 것을 확인할 수 있었습니다.</p>
   </div>
 </div>
 
+<div align="Center">
+  <img width="600" height="330" alt="Civil Bot Table"  src="https://github.com/user-attachments/assets/7cb23f3f-c00d-47ac-8410-8dd987e3c43a"  style="margin-right: 20px; display: inline-block; vertical-align: middle;" />
+  <div style="display: inline-block; text-align: left; max-width: 500px; vertical-align: middle;">
+    <h4>계절성 제거</h4>
+  </div>
+</div>
+
+<div align="Center">
+  <img width="600" height="330" alt="Civil Bot Table"  src="https://github.com/user-attachments/assets/7cb23f3f-c00d-47ac-8410-8dd987e3c43a"  style="margin-right: 20px; display: inline-block; vertical-align: middle;" />
+  <div style="display: inline-block; text-align: left; max-width: 500px; vertical-align: middle;">
+    <h4>계절성 제거</h4>
+  </div>
+</div>
      
 * 과거 데이터를 기반으로 월별 유기동물 발생 예측
 * `2019.10 ~ 2021.12` 데이터 기반 `2022.09`까지의 예측 수행
