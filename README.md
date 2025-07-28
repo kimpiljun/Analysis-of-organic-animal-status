@@ -73,19 +73,41 @@
 </div>
 
 <div align="Center">
-  <img width="600" height="330" alt="Civil Bot Table"  src="https://github.com/user-attachments/assets/7cb23f3f-c00d-47ac-8410-8dd987e3c43a"  style="margin-right: 20px; display: inline-block; vertical-align: middle;" />
+  <img width="600" height="330" alt="Civil Bot Table"  src="https://github.com/user-attachments/assets/9f7dcbb0-1d36-4228-b677-cf5e2f9637b9"  style="margin-right: 20px; display: inline-block; vertical-align: middle;" />
   <div style="display: inline-block; text-align: left; max-width: 500px; vertical-align: middle;">
     <h4>계절성 제거</h4>
   </div>
 </div>
 
 <div align="Center">
-  <img width="600" height="330" alt="Civil Bot Table"  src="https://github.com/user-attachments/assets/7cb23f3f-c00d-47ac-8410-8dd987e3c43a"  style="margin-right: 20px; display: inline-block; vertical-align: middle;" />
+  <img width="600" height="330" alt="Civil Bot Table"   src="https://github.com/user-attachments/assets/7cb23f3f-c00d-47ac-8410-8dd987e3c43a"  style="margin-right: 20px; display: inline-block; vertical-align: middle;" />
   <div style="display: inline-block; text-align: left; max-width: 500px; vertical-align: middle;">
-    <h4>계절성 제거</h4>
+    <h4>1차 차분</h4>
   </div>
 </div>
-     
+
+<div align="Center">
+  <img width="600" height="330" alt="Civil Bot Table"  src="https://github.com/user-attachments/assets/6b46a6f7-6f80-465f-b148-faa24cb0031a"   style="margin-right: 20px; display: inline-block; vertical-align: middle;" />
+  <div style="display: inline-block; text-align: left; max-width: 500px; vertical-align: middle;">
+    <h4>ACF 확인</h4>
+  </div>
+</div>
+
+<div align="Center">
+  <img width="600" height="330" alt="Civil Bot Table"  src="https://github.com/user-attachments/assets/6e436392-cbe1-4597-be90-a031540691dc"   style="margin-right: 20px; display: inline-block; vertical-align: middle;" />
+  <div style="display: inline-block; text-align: left; max-width: 500px; vertical-align: middle;">
+    <h4>PACF 확인</h4>
+  </div>
+</div>
+
+<div align="Center">
+  <img width="600" height="330" alt="Civil Bot Table"  src="https://github.com/user-attachments/assets/654357f9-fd5c-4365-80cd-c7e6f1ccdaa7"   style="margin-right: 20px; display: inline-block; vertical-align: middle;" />
+  <div style="display: inline-block; text-align: left; max-width: 500px; vertical-align: middle;">
+    <h4>PACF 확인</h4>
+  </div>
+</div>
+
+    
 * 과거 데이터를 기반으로 월별 유기동물 발생 예측
 * `2019.10 ~ 2021.12` 데이터 기반 `2022.09`까지의 예측 수행
 
