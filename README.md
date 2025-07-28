@@ -43,17 +43,24 @@
 <div align="Center">
   <img width="600" height="330" alt="Civil Bot Table" src="https://github.com/user-attachments/assets/47de1a14-87c5-4a00-a34c-1651f0cc0c9d" style="margin-right: 20px; display: inline-block; vertical-align: middle;" />
   <div style="display: inline-block; text-align: left; max-width: 500px; vertical-align: middle;">
-    <h4>트랜잭션을 통한 연관규칙 분</h4>
+    <h4>트랜잭션을 통한 연관규칙 분석</h4>
     <p>지역별 유기동물 발견 장소 및 환경적 특성 간의 연관 규칙 도출<br>
     예: 부평 고양이 → "주차장", "아파트" / 전주 고양이 → "놀이터", "학교"</p>
   </div>
 </div>
 
-
 ### 3. 🗺️ GIS 분석
 
-* 지도 시각화를 통해 유기동물 발생 밀집 지역 파악
-* 인구 밀도 대비 정규화된 발생률을 통해 지역별 비교
+<div align="Center">
+  <img width="600" height="330" alt="Civil Bot Table" src="https://github.com/user-attachments/assets/c6fb84d6-c1e5-4639-ade3-de26abce099b" style="margin-right: 20px; display: inline-block; vertical-align: middle;" />
+  <div style="display: inline-block; text-align: left; max-width: 500px; vertical-align: middle;">
+    <h4지도 시각화를 통해 유기동물 발생 밀집 지역 파악</h4>
+    <p>지역별 유기동물 발견 장소 및 환경적 특성 간의 연관 규칙 도출<br>
+    지도 시각화를 통해 유기동물 발생 밀집 지역 파악</p>
+  </div>
+</div>
+
+
 
 ### 4. 📈 시계열 분석
 
