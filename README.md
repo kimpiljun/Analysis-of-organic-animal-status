@@ -65,9 +65,9 @@
 ### 4. 📈 시계열 분석
 
 <div align="Center">
-  <img width="600" height="330" alt="Civil Bot Table" src="https://github.com/user-attachments/assets/c6fb84d6-c1e5-4639-ade3-de26abce099b" style="margin-right: 20px; display: inline-block; vertical-align: middle;" />
+  <img width="600" height="330" alt="Civil Bot Table" src="https://github.com/user-attachments/assets/9f7dcbb0-1d36-4228-b677-cf5e2f9637b9"  style="margin-right: 20px; display: inline-block; vertical-align: middle;" />
   <div style="display: inline-block; text-align: left; max-width: 500px; vertical-align: middle;">
-    <h4>께절성 제거</h4>
+    <h4>계성 제거</h4>
   </div>
 </div>
 
