@@ -23,6 +23,10 @@
 
 ### 1. 📌 텍스트 마이닝
 
+<div align="Center">
+  <img width="600" height="330" alt="Civil Bot Table" src="https://github.com/user-attachments/assets/18f592b3-929d-483e-8515-2927a08b102f" style="margin-right: 20px; display: inline-block; vertical-align: middle;" />
+  <div style="display: inline-block; text-align: left; max-width: 500px; vertical-align: middle;">
+
 * 보호센터 주소 및 발견 장소를 정제하여 지리정보 기반 분석 가능하도록 가공
 
 ### 2. 🔗 연관 규칙 분석
