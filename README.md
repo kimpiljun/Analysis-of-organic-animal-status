@@ -64,6 +64,15 @@
 
 ### 4. 📈 시계열 분석
 
+> 유기동물 발생 데이터의 시간적 변화를 분석하기 위해 시계열 분석을 수행하였습니다. 먼저, 원시 데이터(tsData)를 시각화하여 전체적인 추세와 변동성을 확인하였고, ACF(자기상관함수) 그래프를 통해 시계열 내에서 시차(lag)에 따른 상관관계를 파악하였습니다. ACF 결과는 데이터에 계절성 및 자기상관성이 존재함을 시사합니다.
+
+>이를 보완하기 위해 계절성 요인을 분해하여 제거하였으며, 1차 차분을 적용하여 시계열의 정상성(stationarity)을 확보하였습니다. 정상성 확보는 예측 모델링의 기본 전제 조건으로, 차분 후 시계열은 평균과 분산이 일정한 상태로 변환되어 안정적인 분석이 가능해졌습니다.
+
+>또한, PACF(부분자기상관함수) 분석을 통해 시계열 내에서 직접적인 자기상관 구조를 확인하였고, 이를 바탕으로 최종 ARIMA 모델을 구축하였습니다. 이 모델은 유기동물 발생의 계절적 패턴과 추세를 효과적으로 반영하여 향후 발생량 예측에 활용할 수 있습니다.
+
+
+
+
 <div align="Center">
   <img width="600" height="330" alt="Civil Bot Table" src="https://github.com/user-attachments/assets/19aeafbd-7387-4512-b800-ee5417913518"  style="margin-right: 20px; display: inline-block; vertical-align: middle;" />
   <div style="display: inline-block; text-align: left; max-width: 500px; vertical-align: middle;">
