@@ -65,7 +65,7 @@
 ### 4. 📈 시계열 분석
 
 <div align="Center">
-  <img width="600" height="330" alt="Civil Bot Table" src="https://github.com/user-attachments/assets/9f7dcbb0-1d36-4228-b677-cf5e2f9637b9"  style="margin-right: 20px; display: inline-block; vertical-align: middle;" />
+  <img width="600" height="330" alt="Civil Bot Table" src="https://github.com/user-attachments/assets/19aeafbd-7387-4512-b800-ee5417913518"  style="margin-right: 20px; display: inline-block; vertical-align: middle;" />
   <div style="display: inline-block; text-align: left; max-width: 500px; vertical-align: middle;">
     <h4>데이터 분해</h4>
    <p>Seasonal의 경우 특정 주기가 보인다는 것을 확인할 수 있었으며, Random의 경우 잘 표현이 된 것을 확인할 수 있었습니다.</p>
